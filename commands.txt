@@ -1,0 +1,18 @@
+# Создание миграций
+python manage.py makemigrations
+
+# Применение миграций к базе данных (БД)
+python manage.py migrate
+
+# Запуск сервера
+python manage.py runserver
+
+# Документация
+https://django.fun/docs/django/ru/4.0/
+
+# todo Прочитать следющее:
+# Типы полей
+https://django.fun/docs/django/ru/4.0/ref/models/fields/#
+
+# Введение в модели
+https://django.fun/docs/django/ru/4.0/topics/db/models/
