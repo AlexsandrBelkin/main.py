@@ -1,0 +1,26 @@
+Install git
+https://netology-code.github.io/guides/git/
+
+
+python -m venv <name of venv>
+<name of venv>\Scripts\activate
+pip install django
+git add .
+git commit -m "Done something..."
+git push origin master
+
+ORM():
+python manage.py shell
+
+
+Django:
+django-admin 
+django-admin startproject <name of proj>
+cd <name of proj>
+django-admin startapp <name of app>
+
+
+look for wsgi, bootstrap
+
+Repository > Settings > Collaborators > Add People
+https://github.com/pvlvRInc

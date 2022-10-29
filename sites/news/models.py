@@ -19,3 +19,4 @@ class Commentary(models.Model):
     news = models.ForeignKey(News, on_delete=models.CASCADE)
     text = models.TextField()
     parent = models.ForeignKey("self", on_delete=models.CASCADE, null=True, blank=True)
+
