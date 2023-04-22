@@ -15,12 +15,12 @@
 	<h1>Регистрация</h1>
 	<form action="" method="post" class="form">
 		{%csrf_token%}
-		<input class="form_element"  type="text" name="firstname" placeholder="Имя"> <br>
-		<input class="form_element" type="text" name="secondname" placeholder="Фамилия"> <br>
-		<input class="form_element" type="text" name="username" placeholder="Псевдоним"> <br>
-		<input class="form_element" type="email" name="email" placeholder="Почта"> <br>
-		<input class="form_element" type="tel" name="phone" placeholder="Телефон"> <br>
-		<input class="form_element" type="password" name="password" placeholder="Пароль"> <br>
+		<input class="form_element"  type="text" name="firstname" placeholder="Имя">
+		<input class="form_element" type="text" name="secondname" placeholder="Фамилия">
+		<input class="form_element" type="text" name="username" placeholder="Псевдоним">
+		<input class="form_element" type="email" name="email" placeholder="Почта">
+		<input class="form_element" type="tel" name="phone" placeholder="Телефон">
+		<input class="form_element" type="password" name="password" placeholder="Пароль">
 		<!--<input class="form_element" type="password" name="repeatpassword" placeholder="Подтверждение пароля"> <br>-->
 		<p class="yge_imeete_akkaynt">Уже имеете аккаунт? <a class="url" href="{%url 'news:authorization' %}">Вход</a></p>
 		<button class="form_btn" type="submit">Зарегистрироваться</button>
