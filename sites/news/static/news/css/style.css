@@ -1,0 +1,59 @@
+@keyframes test {
+    0%{
+        color: aqua;
+    }
+    50%{
+        color: blueviolet;
+    }
+    100%{
+        color: crimson;
+    }
+}
+
+.card{
+    width: 250px;
+    height: 280px;
+    text-align: center;
+}
+
+.card_title{
+    font-size: 70px;
+    text-shadow: 3px 3px #808080;
+
+}
+
+.card_img{
+    border: 1px solid black;
+    width: 100px;
+}
+
+.card_descr{
+    font-size: 24px;
+
+}
+
+.card_footer{
+
+
+}
+
+.card_price{
+    font-size: 70px;
+    color: black;
+
+}
+
+.card_cost{
+    font-size: 70px;
+    color: #000000;
+    animation-duration: 1s;
+    animation-name: test;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.card_buy{
+    color: blue;
+    font-size: 70px;
+
+}

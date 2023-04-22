@@ -1,13 +1,30 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Новости</title>
+    <link rel="stylesheet" href="{%static 'news/css/news.css'%}">
 </head>
 <body>
-    <h1>HTML</h1>
-    <p>Теперь мы знаем, что такое <i>разметка</i>, дава&#x301;й узнаем, что такое HTML. Есть вещи, которые проще показать, чем
-        объяснять. HTML - одна из них.</p>
-    <p>Всё гениальное просто. Вот как бы выглядел текст этого урока на HTML:</p>
+<header>
+    <nav>
+        <img class="logoamg" src="{%static 'news/img/toyota-mark-2.jpg'%}" alt="у соболезную, что твой комп не тянет даже картинку">
+        <ul>
+            <li><a href="{%url 'news:register' %}">Регистрация</a></li>
+            <li><a href="{%url 'news:authorization' %}">Авторизация</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="new">
+        <h2 class="zagolovok">Заголовок статьи с самого лучшего новостного сайта</h2>
+        <p class="text">я да, но нет, но как быда, но в тоже время нет</p>
+        <a class="">Подробнее</a>
+    </div>
+</main>
+<footer>
+
+</footer>
 </body>
 </html>

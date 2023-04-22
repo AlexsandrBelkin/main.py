@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Регистрация</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{%static 'news/css/registr.css'%}">
+</head>
+<body>
+<div class="center">
+	<h1>Регистрация</h1>
+	<form action="" method="post" class="form">
+		{%csrf_token%}
+		<input class="form_element"  type="text" name="firstname" placeholder="Имя"> <br>
+		<input class="form_element" type="text" name="secondname" placeholder="Фамилия"> <br>
+		<input class="form_element" type="text" name="username" placeholder="Псевдоним"> <br>
+		<input class="form_element" type="email" name="email" placeholder="Почта"> <br>
+		<input class="form_element" type="tel" name="phone" placeholder="Телефон"> <br>
+		<input class="form_element" type="password" name="password" placeholder="Пароль"> <br>
+		<!--<input class="form_element" type="password" name="repeatpassword" placeholder="Подтверждение пароля"> <br>-->
+		<p class="yge_imeete_akkaynt">Уже имеете аккаунт? <a class="url" href="{%url 'news:authorization' %}">Вход</a></p>
+		<button class="form_btn" type="submit">Зарегистрироваться</button>
+	</form>
+</div>
+</body>
+</html>

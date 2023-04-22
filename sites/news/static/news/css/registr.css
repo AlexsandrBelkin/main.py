@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: #1A1A1D;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Shantell Sans', cursive;
+}
+
+center{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+  border:none;
+  background-color: #4E4E50;
+  color: #C3073F;
+  margin: 2.5px;
+  font-weight: 650;
+  border-radius:10px;
+  width:100%;
+}
+
+.url:visited{
+    color: blue;
+}
+
+.url:active{
+    color: pink;
+}
+
+.url:hover{
+    color: red;
+}
+
+.url:link{
+    color: #C3073F;
+}
+
+.form_element{
+    padding:10px;
+    border-radius:10px;
+    margin: 2.5px;
+
+}
+.form_btn{
+    padding:10px;
+    border:none;
+    background-color: white;
+    color: red;
+    font-weight: 650;
+    border-radius:10px;
+    width:100%;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.yge_imeete_akkaynt{
+    color: #C3073F;
+}
+
+form{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}

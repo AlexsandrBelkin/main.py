@@ -16,3 +16,12 @@ https://django.fun/docs/django/ru/4.0/ref/models/fields/#
 
 # Введение в модели
 https://django.fun/docs/django/ru/4.0/topics/db/models/
+
+#
+def .....(request):
+    return render(request, "news/........html")
+
+# _______________ solid
+_ _ _ _ _ _ _ _ _ dashed
+................. dotted
+двойная линия  - double

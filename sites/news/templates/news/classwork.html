@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Байкал</title>
+    <link rel="stylesheet" href="{%static 'news/css/style.css'%}">
+</head>
+<body>
+<div class="card">
+    <h1 class="card_title">Байкал</h1>
+    <img class="card_img" src="{% static 'news/img/байкал.jpg' %}" alt="Тут должен быть байкал, но видимо, ты его увидешь теперь только, когда купишь)">
+    <p class="card_descr"><b>Байкал</b> — озеро тектонического происхождения в южной части Восточной Сибири, <em>самое глубокое озеро на планете, крупнейший природный резервуар пресной воды и самое большое по площади пресноводное озеро на континенте.
+        Озеро и прибрежные территории отличаются уникальным разнообразием флоры и фауны, большая часть видов животных эндемична</em>.</p>
+    <div class="card_footer">
+        <h2 class="card_price">Цена</h2>
+        <h2 class="card_cost">1 000 000 000</h2>
+        <a class="card_buy" href ="">Купить</a>
+    </div>
+</div>
+</body>
+</html>
