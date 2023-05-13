@@ -13,6 +13,7 @@ class User(models.Model):
 class News(models.Model):
     title = models.CharField(max_length=50)
     picture = models.FileField(upload_to="news/static/news/img/")
+    about = models.TextField()
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

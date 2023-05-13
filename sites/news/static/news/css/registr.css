@@ -70,7 +70,6 @@ h1{
 }
 
 form{
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
 }

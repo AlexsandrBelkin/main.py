@@ -1,5 +1,5 @@
 # Создание миграций
-python manage.py makemigrations
+
 
 # Применение миграций к базе данных (БД)
 python manage.py migrate

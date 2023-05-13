@@ -2,16 +2,13 @@ from django.shortcuts import render, redirect
 from news.models import News, User
 
 def test(request):
-    #return HttpResponse("<h1>Hello world!</h1>")
-    return render(request, "news/test.html")
+    news = News.objects.all()
+    for i in news:
+        print(i.title)
+    return render(request, "news/test.html", context={"news": news})
 
 def test_news(request):
     news = News.objects.all()
-    # response = ""
-    # for item in news:
-    #     item_str = "<p>" + item.title + str(item.created_at) + str(item.is_published) + "</p>"
-    #     response += item_str + "\n"
-    # return HttpResponse(response)
     return render(request, "news/test_news.html", context={"news": news})
 
 def task(request):
