@@ -9,9 +9,11 @@ header{
 
 nav{
     display: flex;
-
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-flow: row nowrap;
 }
 
 .logoamg{
-    width: 100px;
+    height: 100px;
 }
